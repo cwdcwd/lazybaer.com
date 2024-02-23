@@ -1,0 +1,9 @@
+[[home]]
+    enableWave = "true"
+    enableTopWidget = "true"
+    enableMiddleWidget = "true"
+    enableBottomWidget = "true"
+    enableGalleryWidget = "false"
+
+[[single]]
+    enableWave = "true"

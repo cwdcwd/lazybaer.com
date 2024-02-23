@@ -1,0 +1,42 @@
+title = "Interests"
+id = "interests"
+text = "My interests are broad and varied. I'm always looking for new things to learn and explore. Here are a few of the things I'm passionate about:"
+
+[[list]]
+    name = "Hardware"
+    iconClass = "fa fa-microchip"
+    text = """
+        I'm a long time lover of microcontrollers and hobby electronics. I love working with the Ardiuno, Teensy, ESP32, and Raspberry Pi platforms.
+    """
+[[list]]
+    name = "Generative AI"
+    iconClass = "fa fa-robot"
+    text = """
+        I enjoy exploring new LLMs and their applications within agents and othere higher order use cases. I believe LLMs will fundamentally change the way we interact with technology and design systems and products.
+    """
+[[list]]
+    name = "Software Development"
+    iconClass = "fa fa-code"
+    text = """
+        I've been hacking and writing code since I was a kid. From my early days with BASIC on my TRS-80 to my current work with Typescript and other modern languages, I love building things with code and learning new languages and design patterns.
+    """
+
+[[list]]
+    name = "Crytography"
+    iconClass = "fa fa-key"
+    text = """
+        I have a deep interest in cryptography and it's many applications. I believe cryptography is a fundamental to privacy and becomes increasingly important as we continue to enmesh our lives with technology.
+    """
+[[list]]
+    name = "DevOps"
+    iconClass = "fa fa-server"
+    text = """
+        I'm passionate about automation and making life easier for developers. I love automating and streamlining SDLC and building out CI/CD pipelines.
+    """
+
+[[list]]
+    name = "Blockchain"
+    iconClass = "fa fa-cube"
+    text = """
+        I'm fascinated by the potential of blockchain and it's many applications and have dabbled in this space. I believe blockchains will enable decentralized systems and applications which will allow for a more resilient, secure, and private internet.
+    """

@@ -1,0 +1,29 @@
+mainTitle = "About the Baer"
+secondaryTitle = "Hallo Welt!"
+id = "about"
+
+text = """
+I am a seasoned technologist, former Crowd Sourcerer, and general tinkerer with a penchant for chasing after shiny things. 
+"""
+
+[[link]]
+    icon = "fab fa-github"
+    url = "https://github.com/cwdcwd"
+[[link]]
+    icon = "fab fa-linkedin"
+    url = "https://www.linkedin.com/in/cwdcwd/"
+[[link]]
+    icon = "fab fa-twitter"
+    url = "https://twitter.com/baerspokes"
+[[link]]
+    icon = "fab fa-keybase"
+    url = "https://keybase.io/lazybaer"
+# [[link]]
+#     icon = "fas fa-envelope"
+#     url = "#"
+# [[link]]
+#     icon = "fab fa-instagram"
+#     url = "#"
+# [[link]]
+#     icon = "fab fa-facebook"
+#     url = "#"

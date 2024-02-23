@@ -1,0 +1,33 @@
+baseURL = 'https://www.lazybaer.com/'
+languageCode = 'en-us'
+title = 'LazyBaer'
+theme = 'hugo-simpleIntro'
+
+publishDir = "public"
+
+[params]
+    # mainbg = "https://picsum.photos/1920/1080"
+    mainbg = "/images/mountains.png"
+    name = "Lazybaer"
+    mainTitle = "Welcome to the Baer"
+    mainText = "taking on the world, one bite at a time"
+    enableDevicon = "true"
+    enableFontAwesome = "true"
+
+[menus]
+    [[menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/#about"
+    # [[menu.main]]
+    #     identifier = "contact"
+    #     name = "Contact"
+    #     url = "/#contact"
+    [[menu.main]]
+        identifier = "interests"
+        name = "Interests"
+        url = "/#interests"
+    [[menu.main]]
+        identifier = "projects"
+        name = "Projects"
+        url = "/#projects"

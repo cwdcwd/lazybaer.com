@@ -1,0 +1,18 @@
+title = "Projects"
+id = "projects"
+text = "Various and sundry things"
+
+[[list]]
+    title = "Subter"
+    image = "/images/subter.png"
+    imageAlt = "Read Between the Lines"
+    text = """
+        Subter is a secure communications platform that allows you to send and receive messages using cryptography and steganography.
+    """
+[[list]]
+    title = "Ursa Science"
+    image = "https://www.ursascience.com/assets/img/bg-masthead.png"
+    imageAlt = "Random image from Picsum"
+    text = """
+        Ursa Science is a company that is aiming to disrupt science instrumentation through a modular design system, freeing users to construct systems on the fly.
+    """

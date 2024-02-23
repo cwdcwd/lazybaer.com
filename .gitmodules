@@ -1,0 +1,3 @@
+[submodule "themes/hugo-simpleIntro"]
+	path = themes/hugo-simpleIntro
+	url = git@github.com:lazy-bear-llc/hugo-simpleIntro.git
