@@ -1,0 +1,22 @@
+title = "Projects"
+id = "projects"
+text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil."
+
+[[list]]
+    title = "lorem"
+    image = "https://picsum.photos/400/200"
+    imageAlt = "Random image from Picsum"
+    text = """
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Voluptatibus quia, nulla! Maiores et perferendis eaque,
+        exercitationem praesentium nihil.
+    """
+[[list]]
+    title = "lorem"
+    image = "https://picsum.photos/400/200"
+    imageAlt = "Random image from Picsum"
+    text = """
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Voluptatibus quia, nulla! Maiores et perferendis eaque,
+        exercitationem praesentium nihil.
+    """

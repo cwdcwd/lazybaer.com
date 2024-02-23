@@ -1,0 +1,47 @@
+{{ $data := .Data.home }}
+
+<section id="{{$data.middle.id}}" class="mt-12">
+    <div class="md:flex justify-center">
+        {{ partial "home/homeTitle" (dict "title" $data.middle.title) }}
+    </div>
+
+    <p class="font-normal text-lg my-1.5 text-justify">
+        {{$data.middle.text}}
+    </p>
+
+    {{if $data.middle.list}}
+        <div class="mt-8 grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4" >
+
+        {{ range $data.middle.list }}
+            <div class="w-full rounded overflow-hidden shadow-lg">
+                <div class="">
+                    <div class="font-bold text-xl mb-2 py-2 px-6 bg-gray-500 text-white">
+                        <div class="flex">
+                            {{if .iconClass}}
+                                <i class="{{.iconClass }} text-4xl bg-gray-300 py-1 px-1 rounded-full"></i>
+                            {{else if .iconImg}}
+                                <img
+                                src="{{ .iconImg }}"
+                                width="50px"
+                                class="bg-gray-300 py-1 px-1 rounded-full"
+                            />
+                            {{end}}
+                            <div class="my-auto ml-2">
+                                {{ .name }}
+                            </div>
+                        </div>
+                    </div>
+
+                <p class="text-white-700 text-base px-6 pb-4">
+                    {{ replace .text "\n" "<br />" | safeHTML }}
+                </p>
+                </div>
+            </div>
+        {{end}}
+
+        </div>
+
+    {{else}}
+        <div class="mt-4 text-xl text-center">Undefined list</div>
+    {{end}}
+</section>

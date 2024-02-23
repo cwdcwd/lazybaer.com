@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ $.Site.LanguageCode}}">
+    <!-- HEAD Element -->
+    {{ partial "head.html" . }}
+
+    <!-- Page BODY -->
+    <body>
+
+        <!-- HEADER Element -->
+        {{ partial "header.html" . }}
+
+        <!-- Content -->
+        <div id="content">
+        {{ block "main" . }}
+        <!-- The page content will go here, declaring a "main" block -->
+        {{ end }}
+        </div>
+
+        <!-- FOOTER Element -->
+        {{ partial "footer.html" . }}
+
+    </body>
+</html>
