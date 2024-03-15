@@ -21,6 +21,7 @@ publishDir = "public"
     # logo = "assets/img/nav-logo.png"
     # favicon = "assets/favicon.ico"
     googleTagManager = "GTM-5RM84MJK"
+    googleAnalyticsId = '9QDG4QB50J'
 
 [menus]
     [[menu.main]]
