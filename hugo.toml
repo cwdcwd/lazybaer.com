@@ -9,6 +9,7 @@ publishDir = "public"
   [services.googleAnalytics]
     ID = '9QDG4QB50J'
 
+## Site Settings
 [params]
     # mainbg = "https://picsum.photos/1920/1080"
     mainbg = "/images/mountains.png"
@@ -17,6 +18,9 @@ publishDir = "public"
     mainText = "taking on the world, one bite at a time"
     enableDevicon = "true"
     enableFontAwesome = "true"
+    # logo = "assets/img/nav-logo.png"
+    # favicon = "assets/favicon.ico"
+    googleTagManager = "GTM-5RM84MJK"
 
 [menus]
     [[menu.main]]
