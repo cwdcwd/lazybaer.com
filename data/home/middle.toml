@@ -22,7 +22,7 @@ text = "My interests are broad and varied. I'm always looking for new things to 
     """
 
 [[list]]
-    name = "Crytography"
+    name = "Cryptography"
     iconClass = "fa fa-key"
     text = """
         I have a deep interest in cryptography and it's many applications. I believe cryptography is a fundamental to privacy and becomes increasingly important as we continue to enmesh our lives with technology.
