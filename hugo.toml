@@ -7,7 +7,7 @@ publishDir = "public"
 
 [services]
   [services.googleAnalytics]
-    ID = '9QDG4QB50J'
+    ID = 'G-9QDG4QB50J'
 
 ## Site Settings
 [params]
@@ -21,7 +21,7 @@ publishDir = "public"
     # logo = "assets/img/nav-logo.png"
     # favicon = "assets/favicon.ico"
     googleTagManager = "GTM-5RM84MJK"
-    googleAnalyticsId = '9QDG4QB50J'
+    googleAnalyticsId = 'G-9QDG4QB50J'
 
 [menus]
     [[menu.main]]
