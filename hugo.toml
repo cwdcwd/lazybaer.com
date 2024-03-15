@@ -5,6 +5,10 @@ theme = 'hugo-simpleIntro'
 
 publishDir = "public"
 
+[services]
+  [services.googleAnalytics]
+    ID = '9QDG4QB50J'
+
 [params]
     # mainbg = "https://picsum.photos/1920/1080"
     mainbg = "/images/mountains.png"
