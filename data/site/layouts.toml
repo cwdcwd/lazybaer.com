@@ -3,7 +3,7 @@
     enableTopWidget = "true"
     enableMiddleWidget = "true"
     enableBottomWidget = "true"
-    enableGalleryWidget = "false"
+    enableGalleryWidget = "true"
 
 [[single]]
     enableWave = "true"

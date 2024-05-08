@@ -1,14 +1,41 @@
-title = "Gallery"
-id = "gallery"
-text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil."
+title = "Reading"
+id = "reading"
+text = "Books I'm currently reading"
 
 [[list]]
-    title = "lorem"
-    image = "https://picsum.photos/400/200"
-    imageAlt = "Random image from Picsum"
+    title = "Cryptonomicon"
+    image = "https://m.media-amazon.com/images/I/811HmmUbx3L._SL1500_.jpg"
+    imageAlt = "Cryptonomicon"
+    text = "By Neal Stephenson"
+    url = "https://amzn.to/3UORsP0"
 
 [[list]]
-    title = "lorem"
-    image = "https://picsum.photos/400/200"
-    imageAlt = "Random image from Picsum"
-
+    title = "The Rust Programming Language"
+    image = "https://m.media-amazon.com/images/I/71SlLVGcg-L._SL1500_.jpg"
+    imageAlt = "The Rust Programming Language"
+    text = "By Steve Klabnik and Carol Nichols"
+    url = "https://amzn.to/4b7GvxN"
+[[list]]
+    title = "The Autobiography of Sir Götz von Berlichingen"
+    image = "https://m.media-amazon.com/images/I/71SJe5FB9tL._SL1500.jpg"
+    imageAlt = "The Autobiography of Sir Götz von Berlichingen"
+    text = "By Götz von Berlichingen"
+    url = "https://amzn.to/3JSRnUe"
+[[list]]
+    title = "Overclocked"
+    image = "https://m.media-amazon.com/images/I/81wT0Fkt+yL._SL1500_.jpg"
+    imageAlt = "Overclocked"
+    text = "A collection of short stories by Cory Doctorow"
+    url = "https://amzn.to/3UybSup"
+[[list]]
+    title = "Embedded Networking With CAN and CANopen"
+    image = "https://m.media-amazon.com/images/I/41T7RbSmFPL._SL1500.jpg"
+    imageAlt = "Embedded Networking With CAN and CANopen"
+    text = "By Olaf Pfeiffer, Andrew Ayre, Christian Keydel, Marc Ayre"
+    url = "https://amzn.to/3WyVKM0"
+[[list]]
+    title = "This Is Your Mind on Plants"
+    image = "https://m.media-amazon.com/images/I/81Wr-6AVieL._SL1500_.jpg"
+    imageAlt = "This Is Your Mind on Plants"
+    text = "By Michael Pollan"
+    url = "https://amzn.to/3wAVMIp"

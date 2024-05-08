@@ -40,3 +40,7 @@ publishDir = "public"
         identifier = "projects"
         name = "Projects"
         url = "/#projects"
+    [[menu.main]]
+        identifier = "reading"
+        name = "Reading"
+        url = "/#reading"
